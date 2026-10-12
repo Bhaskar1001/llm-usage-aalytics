@@ -1,0 +1,11 @@
+request_id,timestamp,user_id,application,model,prompt_tokens,completion_tokens,latency_ms,status,error_type
+R001,2026-10-10 09:00:00,U01,SupportBot,gpt-4o-mini,500,200,800,success,
+R002,2026-10-10 09:05:00,U02,CodeAssistant,gemma,700,300,1200,success,
+R003,2026-10-10 09:10:00,U01,SupportBot,gpt-4o-mini,600,250,1500,failure,timeout
+R004,2026-10-10 10:00:00,U03,ResearchBot,gemma,1000,500,950,success,
+R005,2026-10-10 10:15:00,U02,CodeAssistant,gpt-4o-mini,800,400,700,success,
+R006,2026-10-11 09:00:00,U01,SupportBot,gemma,400,150,600,success,
+R007,2026-10-11 09:30:00,U03,ResearchBot,gpt-4o-mini,1200,500,2000,failure,rate_limit
+R008,2026-10-11 10:00:00,U02,CodeAssistant,gemma,650,250,850,success,
+R009,2026-10-11 11:00:00,U01,SupportBot,gpt-4o-mini,550,200,750,success,
+R010,2026-10-11 12:00:00,U03,ResearchBot,gemma,900,350,1100,success,
